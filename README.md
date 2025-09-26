@@ -2,7 +2,7 @@
 
 ## 📌 Latar Belakang
 
-Di era digital saat ini, **pemetaan dan visualisasi data geospasial** memegang peranan yang sangat penting. Tugas ini disusun untuk menampilkan data vektor melalui peta web serta memahami mekanisme integrasi data dalam format **GeoJSON**, dengan tujuan memperkuat pemahaman terkait peta interaktif dan pengolahan data geospasial secara digital.
+Di era digital saat ini, **pemetaan dan visualisasi data geospasial** memegang peranan penting. Tugas ini disusun untuk menampilkan data vektor melalui peta web serta memahami mekanisme integrasi data dalam format **GeoJSON**, sehingga dapat memperkuat pemahaman mengenai peta interaktif dan pengolahan data geospasial secara digital.
 
 ---
 
@@ -26,7 +26,7 @@ Di era digital saat ini, **pemetaan dan visualisasi data geospasial** memegang p
 
 ---
 
-## 🧑‍💻 Tugas Ini Dibuat Oleh
+## 🧑‍💻 Identitas Pembuat
 - **Nama:** Salwa Aprilia Santi  
 - **Kelas:** TI23F  
-- **Mata Kuliah:** Sistem Informasi Geografis  
+- **Mata Kuliah:** Sistem Informasi Geografis
