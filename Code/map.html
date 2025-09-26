@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Lokasi Penting Cibolang</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+  <h1>Map Lokasi Penting di Cibolang</h1>
+  <div id="map" style="height: 500px;"></div>
+
+  <script>
+    var map = L.map('map').setView([-6.9055, 106.8733], 16);
+
+    // Tambahkan tile layer OSM
+    var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Tambahkan GeoJSON
+    fetch("map.geojson")
+      .then(res => res.json())
+      .then(data => {
+        L.geoJSON(data, {
+          pointToLayer: function(feature, latlng) {
+            return L.marker(latlng);
+          },
+          style: function(feature) {
+            return { color: 'blue', weight: 2, fillOpacity: 0.2 };
+          },
+          onEachFeature: function(feature, layer) {
+            if(feature.properties.Nama) {
+              layer.bindPopup(feature.properties.Nama);
+            }
+          }
+        }).addTo(map);
+      });
+  </script>
+</body>
+</html>

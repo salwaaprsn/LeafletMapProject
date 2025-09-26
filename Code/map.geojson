@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Universitas Nusa Putra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87331297537355,
+          -6.905121773918637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Masjid Rauddhatul Irfan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87324426253821,
+          -6.905972282064184
+        ]
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Indomaret Cibolang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87424660777253,
+          -6.905681708306787
+        ]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Area Kampus Universitas Nusa Putra"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.87293796717773,
+              -6.904830061388793
+            ],
+            [
+              106.87287290296456,
+              -6.90558755249873
+            ],
+            [
+              106.87357677946068,
+              -6.905575808459972
+            ],
+            [
+              106.8737187377451,
+              -6.904844741461105
+            ],
+            [
+              106.87293796717773,
+              -6.904830061388793
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Jalur ke Masjid Rauddhatul Irfan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.87331297537355,
+            -6.905121773918637
+          ],
+          [
+            106.87324426253821,
+            -6.905972282064184
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Masjid Rauddhatul Irfan"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              106.87306133475067,
+              -6.905743505119858
+            ],
+            [
+              106.87288146887738,
+              -6.906026507373909
+            ],
+            [
+              106.87324798801586,
+              -6.90623538988045
+            ],
+            [
+              106.8734210664984,
+              -6.905932173308017
+            ],
+            [
+              106.87306133475067,
+              -6.905743505119858
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Indomaret Cibolang"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              106.87411338042591,
+              -6.905628956539985
+            ],
+            [
+              106.87411677412126,
+              -6.905841208297829
+            ],
+            [
+              106.87435093912666,
+              -6.905827731998713
+            ],
+            [
+              106.87434075803935,
+              -6.905608742081569
+            ],
+            [
+              106.87411338042591,
+              -6.905628956539985
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": 6
+    }
+  ]
+}
